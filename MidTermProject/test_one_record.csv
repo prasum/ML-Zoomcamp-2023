@@ -1,0 +1,2 @@
+Pclass,Sex,Age,Fare,Embarked,Title,FamilySize_1,FamilySize_2,FamilySize_3
+2,female,38.0,13.0,S,Miss,1,0,0
