@@ -1,0 +1,16 @@
+service: mercedes-manufacturing-prediction #name this whatever you want
+provider:
+  name: aws
+  region: ap-south-1
+  ecr:
+    images:
+      appimage:
+        path: ./
+
+functions:
+  app:
+    image:
+      name: appimage
+    timeout: 30
+    events:
+      - httpApi: 'POST /predict'
