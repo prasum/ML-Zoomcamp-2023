@@ -27,8 +27,6 @@ Refer the ```Training.ipynb``` inside the train folder.
 
 # Deployment
 
-The local Flask web service can be deployed to Docker container
-
 ## Setting Local Docker Environment
 - Create Dockerfile as below which includes the model and custom python file used for transformation during model training in the root folder
   ```bash
