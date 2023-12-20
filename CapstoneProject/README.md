@@ -13,7 +13,7 @@ Refer the ```Training.ipynb``` inside the train folder.
 # Setup Virtual Environment
 
 - Run `pipenv shell` and `pipenv sync`
-- The virtual environment can also be run through jupyter using the following
+- The virtual environment can also be run through jupyter as a kernel by using the following
   ```python -m ipykernel install --user --name=my-virtualenv-name```
 
 # Model Hyperparameter Tuning and Training
